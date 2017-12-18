@@ -3,7 +3,7 @@ About pimsviewer
 
 Home: https://github.com/soft-matter/pimsviewer
 
-Package license: GPL-3.0
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
