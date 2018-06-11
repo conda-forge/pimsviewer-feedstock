@@ -1,6 +1,6 @@
 {% set name = "pimsviewer" %}
-{% set version = "1.0" %}
-{% set sha256 = "f78fc0d3431d4c9c19a5e20d05a429cce01fe9c645aa6da7c446b538e5a0473b" %}
+{% set version = "1.1" %}
+{% set sha256 = "7f9f41ed1c4e54fbe531aeda412a5b5f96c198faff24149088b1402507aee6ff" %}
 
 package:
   name: {{ name|lower }}
