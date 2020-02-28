@@ -26,7 +26,7 @@ requirements:
     - pyqt
     - scikit-image >=0.11
     - pims >=0.4
-    - matplotlib
+    - matplotlib-base
     - pillow
     - click
 
