@@ -29,6 +29,7 @@ requirements:
     - matplotlib-base
     - pillow
     - click
+    - pandas
 
 test:
   imports:
