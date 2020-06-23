@@ -1,6 +1,6 @@
 {% set name = "pimsviewer" %}
-{% set version = "1.1" %}
-{% set sha256 = "7f9f41ed1c4e54fbe531aeda412a5b5f96c198faff24149088b1402507aee6ff" %}
+{% set version = "2.0" %}
+{% set sha256 = "63e3ac0aabb373085e9b70d1d58a6a9e09ca7c3b96c65b5783c8f8cee1c7c277" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
@@ -29,6 +29,7 @@ requirements:
     - matplotlib-base
     - pillow
     - click
+    - pandas
 
 test:
   imports:
@@ -36,7 +37,7 @@ test:
 
 about:
   home: https://github.com/soft-matter/pimsviewer
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: 'A graphical user interface (GUI) for PIMS'
   description: A graphical user interface (GUI) for PIMS
